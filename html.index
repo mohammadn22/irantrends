@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iran Trends</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        #topbar {
+            width: 1200px;
+            height: 50px;
+            margin: 0 auto;
+            background-color: crimson;
+        }
+
+        #logo {
+            margin-top: 7px;
+            margin-left: 2px;
+            margin-right: 7px;
+            height: 35px;
+            float: left;
+        }
+
+        .topbar-section {
+            float: left;
+            border-left: 2px white solid;
+            height: 100%;
+            margin-left: 10px;
+        }
+
+        #search-image {
+            margin-top: 12px;
+            margin-left: 4px;
+            height: 25px;
+            float: left;
+        }
+
+        #search {
+            color: white;
+            font-family: 'Ubuntu', sans-serif;
+            position: relative;
+            top: 16px;
+            left: 5px;
+        }
+
+        .topbar-menu {
+            padding-top: 16px;
+            padding-left: 8px;
+            font-family: 'Ubuntu', sans-serif;
+            color: white;
+        }
+
+        #search-bar {
+            margin-top: 17px;
+            margin-left: 5px;
+            float: left;
+            background-color: ghostwhite;
+            border: none
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="topbar">
+        <img id="logo" src="images/logo.png">
+        <div class="topbar-section topbar-menu">
+            Politics
+        </div>
+        <div class="topbar-section topbar-menu">
+            Economy
+        </div>
+        <div class="topbar-section topbar-menu">
+            Sports
+        </div>
+        <div class="topbar-section topbar-menu">
+            Culture
+        </div>
+        <div class="topbar-section topbar-menu">
+            Health
+        </div>
+        <div class="topbar-section topbar-menu">
+            Society
+        </div>
+        <div class="topbar-section topbar-menu">
+            Weather
+        </div>
+        <div id="search-div" class="topbar-section">
+            <input id="search-bar" class="text">
+            <img id="search-image" src="images/search-icon.png">
+        </div>
+    </div>
+</body>
+
+</html>
